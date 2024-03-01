@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="row">
+    <div class="text-end p-3">
+      <button mat-raised-button color="primary" (click)="back()">Back</button>
+    </div>
+    <mat-card class="container col-md-8 col-12 p-3">
+      <mat-card-header>
+        <mat-card-title class="pb-3 title">Update Todo</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <form [formGroup]="updateForm" (ngSubmit)="update()">
+          <div class="d-flex flex-column justify-content-center align-items-center gap-md-3 gap-0">
+            <mat-form-field class="col-12 col-md-7">
+              <mat-label>Title</mat-label>
+              <input matInput formControlName="title" placeholder = "" required />
+              <mat-error *ngIf="updateForm.get('title')?.hasError('required')">Title is required</mat-error>
+            </mat-form-field>
+
+            <mat-form-field class="col-12 col-md-7">
+              <mat-label>Completed</mat-label>
+              <mat-select matInput [formControlName]="'completed'">
+                <mat-option value="true">Completed</mat-option>
+                <mat-option value="false">Not Completed</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="text-center">
+            <button mat-raised-button color="primary" type="submit">
+              Update
+            </button>
+          </div>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

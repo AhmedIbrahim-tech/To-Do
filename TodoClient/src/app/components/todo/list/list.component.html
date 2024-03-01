@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="row mt-5">
+    <div class="d-md-flex d-block">
+      <div class="col-md-6 col-12 mb-sm-3">
+        <a routerLink="/todo/create">
+          <button type="button" class="btn btn-sm me-2 col-3 py-2" id="addButton">
+            Add New Todo
+          </button>
+        </a>
+      </div>
+      <div class="col-md-6 col-12 text-md-end">
+        <a routerLink="/todo/update">
+          <button type="button" class="btn btn-sm me-2 col-5 py-2" id="addButton">
+            Update/delete Todos
+          </button>
+        </a>
+      </div>
+    </div>
+    <div>
+      <h2 class="text-center">All Todos
+      </h2>
+    </div>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-striped table-bordered styled-table">
+      <thead>
+        <tr style="text-align: center;" class="text-light">
+          <th>Title</th>
+          <th>Completed</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let todo of todos;let i = index" style="text-align: center;">
+          <td>{{ todo.title}}</td>
+          <td [style.color]="todo.completed ? 'green' : 'red'">{{ todo.completed }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="row">
+    <div class="text-end mb-3">
+      <a routerLink="/login">
+        <button type="button" class="btn btn-sm me-2 py-2 px-3" (click)="logOut()">
+          logout
+        </button>
+      </a>
+    </div>
+  </div>
+</div>

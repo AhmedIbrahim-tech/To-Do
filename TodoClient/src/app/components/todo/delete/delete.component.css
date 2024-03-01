@@ -1,0 +1,18 @@
+h1,th{
+  color:var(--main);
+}
+.btn-cancel{
+  background-color:var(--main);
+  color: var(--white);
+}
+.btn-cancel:hover{
+  background-color:var(--hover);
+  color: var(--white);
+}
+
+.buttons-div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+

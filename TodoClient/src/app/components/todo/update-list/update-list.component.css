@@ -1,0 +1,11 @@
+h2,th,.edit{
+  color:var(--main);
+}
+button{
+  background-color:var(--main);
+  color: var(--white);
+}
+button:hover{
+  background-color:var(--hover);
+  color: var(--white);
+}

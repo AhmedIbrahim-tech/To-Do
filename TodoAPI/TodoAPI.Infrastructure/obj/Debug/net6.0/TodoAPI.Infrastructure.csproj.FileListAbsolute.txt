@@ -1,0 +1,17 @@
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\bin\Debug\net6.0\TodoAPI.Infrastructure.deps.json
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\bin\Debug\net6.0\TodoAPI.Infrastructure.runtimeconfig.json
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\bin\Debug\net6.0\TodoAPI.Infrastructure.dll
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\bin\Debug\net6.0\TodoAPI.Infrastructure.pdb
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\bin\Debug\net6.0\TodoAPI.Domain.dll
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\bin\Debug\net6.0\TodoAPI.Domain.pdb
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\obj\Debug\net6.0\TodoAPI.Infrastructure.csproj.AssemblyReference.cache
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\obj\Debug\net6.0\TodoAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\obj\Debug\net6.0\TodoAPI.Infrastructure.AssemblyInfoInputs.cache
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\obj\Debug\net6.0\TodoAPI.Infrastructure.AssemblyInfo.cs
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\obj\Debug\net6.0\TodoAPI.Infrastructure.csproj.CoreCompileInputs.cache
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\obj\Debug\net6.0\TodoAPI..A6406287.Up2Date
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\obj\Debug\net6.0\TodoAPI.Infrastructure.dll
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\obj\Debug\net6.0\refint\TodoAPI.Infrastructure.dll
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\obj\Debug\net6.0\TodoAPI.Infrastructure.pdb
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\obj\Debug\net6.0\TodoAPI.Infrastructure.genruntimeconfig.cache
+D:\WorkShop\Production\BackEnd\Source Code\Personal Projects\Todo\TodoAPI\TodoAPI.Infrastructure\obj\Debug\net6.0\ref\TodoAPI.Infrastructure.dll

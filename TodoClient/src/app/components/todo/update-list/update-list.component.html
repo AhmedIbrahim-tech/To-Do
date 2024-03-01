@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="row mt-5">
+    <div class="d-flex justify-content-between">
+      <div class="mb-3">
+        <a routerLink="/todo/create">
+          <button type="button" class="btn btn-sm me-2 py-2" id="addButton">
+            Add New Todo
+          </button>
+        </a>
+      </div>
+      <div class="text-end">
+        <button mat-raised-button color="primary" (click)="back()">Back</button>
+      </div>
+    </div>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-striped table-bordered styled-table">
+      <thead>
+        <tr style="text-align: center;" class="text-light">
+          <th>Title</th>
+          <th>Completed</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let todo of todos;let i = index" style="text-align: center;">
+          <td>{{ todo.title}}</td>
+          <td>{{ todo.completed }}</td>
+          <td style="display: flex;justify-content: space-around;">
+            <div class="buttons d-flex flex-column d-md-flex flex-md-row gap-2">
+              <a mat-icon-button routerLink="/todo/update/{{ todo.id }}" class="edit">
+                <mat-icon>edit</mat-icon>
+              </a>
+
+              <a mat-icon-button routerLink="/todo/delete/{{ todo.id }}" class="text-danger">
+                <mat-icon>delete</mat-icon>
+              </a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="row">
+    <div class="text-end mb-3">
+      <a routerLink="/login">
+        <button type="button" class="btn btn-sm me-2 py-2 px-3" (click)="logOut()">
+          logout
+        </button>
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+<div class="container mt-5">
+  <div class="row">
+    <mat-card class="container col-md-8 col-12 p-3 mt-5">
+      <mat-card-header>
+        <mat-card-title class="pb-3 title">Login</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <form [formGroup]="loginForm" (ngSubmit)="login()">
+          <div class="d-flex flex-column justify-content-center align-items-center gap-md-3 gap-0">
+            <mat-form-field class="col-12 col-md-7">
+              <input matInput formControlName="email" placeholder="Email" required />
+              <mat-error *ngIf="loginForm.get('email')?.hasError('required')">Email is required</mat-error>
+              <mat-error *ngIf="loginForm.get('email')?.hasError('pattern')">Email must be like example@gmail.com
+                letters</mat-error>
+            </mat-form-field>
+            <mat-form-field class="col-12 col-md-7">
+              <input matInput type="password" formControlName="password" placeholder="Password" required />
+              <mat-error *ngIf="loginForm.get('password')?.hasError('required')">Password is required</mat-error>
+              <mat-error *ngIf="loginForm.get('password')?.hasError('pattern')">Invalid password format and must be
+                at least 8 characters
+                long</mat-error>
+            </mat-form-field>
+          </div>
+          <div class="d-md-flex justify-content-evenly d-block mt-2">
+            <button mat-raised-button color="primary" type="submit" class="mb-0 mb-sm-3">
+              Login
+            </button>
+            <button mat-raised-button color="primary" (click)="register()">Register</button>
+          </div>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
